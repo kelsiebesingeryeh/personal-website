@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+nav {
+    background: #333333;
+    padding-top: 1px;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 2%;
+    background: #333333;
+    color: #FFF;
+    font-family: 'Vollkorn',
+    serif;
+    padding: .5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+
