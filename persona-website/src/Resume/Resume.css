@@ -20,4 +20,36 @@
 .subheadings {
     letter-spacing: 0.3rem;
     font-size: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.5%;
+}
+
+.resumeArea {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.columnOne {
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding-right: 3%;
+}
+
+.columnTwo {
+    width: 70%;
+    margin-left: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.resumeIcons {
+    width: 7%;
+}
+
+.contactStyling {
+    display: flex;
 }
