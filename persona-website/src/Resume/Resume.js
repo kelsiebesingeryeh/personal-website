@@ -18,37 +18,47 @@ const Resume = () => {
           <div className="columnOne">
             <article className="contactInfo">
               <h3 className="subheadings">CONTACT</h3>
-              <div className='contactStyling'>
-                <ul className='contactIcons'>
-                    <li>
+              <div className="contactStyling">
+                <ul className="contactIcons">
+                  <li>
                     <img className="resumeIcons" src={phone} />
-                    </li>
-                    <li>
+                  </li>
+                  <li>
                     <img className="resumeIcons" src={envelope} />
-                    </li>
-                    <li>
+                  </li>
+                  <li>
                     <img className="resumeIcons" src={mapMarker} />
-                    </li>
-                    <li>
+                  </li>
+                  <li>
                     <img className="resumeIcons" src={linkedin} />
-                    </li>
-                    <li>
+                  </li>
+                  <li>
                     <img className="resumeIcons" src={github} />
-                    </li>
+                  </li>
                 </ul>
-                <ul className='contactText'>
-                    <li>+1 646-246-7341</li>
-                    <li>kelsiebesinger@gmail.com</li>
-                    <li>Denver, CO</li>
-                    <li>Kelsie Besinger Yeh</li>
-                    <li>Kelsie Besinger Yeh</li>
+                <ul className="contactText">
+                  <li>+1 646-246-7341</li>
+                  <li>kelsiebesinger@gmail.com</li>
+                  <li>Denver, CO</li>
+                  <li>Kelsie Besinger Yeh</li>
+                  <li>Kelsie Besinger Yeh</li>
                 </ul>
               </div>
             </article>
 
             <article>
               <h3 className="subheadings">SKILLS</h3>
+                <h4>//TECHNICAL</h4>
+                    <p className="skillsText">
+                        JavaScript, HTML, CSS/SASS, React/Redux, Node.js/Express,
+                        Git/GitHub, Data Structures, REST</p>
+                <h4>//TESTING & DEPLOYMENT</h4>
+                    <p className="skillsText">Mocha/Chai, Cypress, Postman, Heroku</p>
+                <h4>//TOOLS</h4>
+                    <p className="skillsText">Jira/Confluence, Google, InVision, GitHub Project, Agile
+                    Methodologies</p>
             </article>
+            
             <article>
               <h3 className="subheadings">CERTIFICATIONS</h3>
             </article>
