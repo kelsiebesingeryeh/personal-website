@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import NavBar from '../NavBar/NavBar'
 import Resume from '../Resume/Resume'
 import Home from '../Home/Home'
+import Work from '../Work/Work'
+import Contact from '../Contact/Contact'
 import { Route } from 'react-router-dom'
 
 class App extends Component {
@@ -10,11 +12,20 @@ class App extends Component {
     return (
       <main className="App">
         <NavBar />
-        <div className='content'>
-          <h1 className='h1Animation skateIn'>Hey, I'm Kelsie</h1>
-        </div>
-        {/* <About /> */}
-        <Resume />
+        <Route exact path='/' component={Home}/>
+        <Route 
+          exact path='/:page'
+          render={ ( { match } ) => {
+            let specificPage
+            if (match.params.page === 'work') {
+              return <Work />
+            } else if (match.params.page === 'resume') {
+              return <Resume />
+            } else if (match.params.page === 'contact') {
+              return <Contact />
+            }
+          }}
+        /> 
       </main>
     )
 

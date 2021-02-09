@@ -1,23 +1,12 @@
-// import React from 'react'
-// import './About.css'
+import React from 'react'
+import './Home.css'
 
-// const About = () => {
-//     return (
-//       <section className="aboutMe">
-//           <div className='secondColumn'>
-//             <h2>About Me</h2>
-//             <p className='aboutOverview'>
-//             I am a process-oriented thinker with over 8 years of experience as an
-//             operations leader for some of the world’s largest tech conferences. I
-//             am a well-rounded engineer who offers a lot of understanding about
-//             business from making processes better on teams to ensuring workflows
-//             are seamless. By applying my operational mindset along with my
-//             problem-solving skills, I design clean and unique user interfaces
-//             while architecting concise and maintainable code.
-//             </p>
-//           </div>
-//       </section>
-//     );
-// }
+const Home = () => {
+    return (
+      <div className="content">
+        <h1 className="h1Animation skateIn">Hey, I'm Kelsie</h1>
+      </div>
+    );
+}
 
-// export default About
+export default Home

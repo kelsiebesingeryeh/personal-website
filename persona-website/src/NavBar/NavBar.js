@@ -20,9 +20,7 @@ const NavBar = () => {
           </li>
         </ul>
       </nav>
-    );
+    )
 }
 
 export default NavBar
-
-// need to add one clicks to each of these nav elements to route to the appropriate page
