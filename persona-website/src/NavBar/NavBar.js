@@ -9,9 +9,6 @@ const NavBar = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
-          </li>
-          <li>
             <a href="#">Work</a>
           </li>
           <li>
@@ -26,3 +23,5 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+// need to add one clicks to each of these nav elements to route to the appropriate page
