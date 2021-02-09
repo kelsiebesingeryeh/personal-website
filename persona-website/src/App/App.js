@@ -2,16 +2,10 @@ import './App.css';
 import React, { Component } from 'react'
 import NavBar from '../NavBar/NavBar'
 import Resume from '../Resume/Resume'
-// import About from '../About/About'
+import Home from '../Home/Home'
+import { Route } from 'react-router-dom'
 
 class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-
-    }
-  }
-
   render() {
     return (
       <main className="App">
