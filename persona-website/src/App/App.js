@@ -16,7 +16,6 @@ class App extends Component {
         <Route 
           exact path='/:page'
           render={ ( { match } ) => {
-            let specificPage
             if (match.params.page === 'work') {
               return <Work />
             } else if (match.params.page === 'resume') {

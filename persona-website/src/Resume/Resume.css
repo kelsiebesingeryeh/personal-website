@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+.resumeSection {
+    font-family: 'Raleway',
+    sans-serif;
+}
+
+.resumeName {
+    font-size: 3.5rem;
+    margin-top: 5%;
+    letter-spacing: 1rem;
+}
+
+.resumeTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+}
+
+.subheadings {
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}
