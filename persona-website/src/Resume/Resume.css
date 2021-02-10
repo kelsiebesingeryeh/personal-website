@@ -3,6 +3,7 @@
 .resumeSection {
     font-family: 'Raleway',
     sans-serif;
+    font-size: 0.85rem;
 }
 
 .resumeName {
@@ -32,7 +33,6 @@
 
 .columnOne {
     width: 30%;
-    height: 100vh;
     border-right: 1px solid black;
     padding-right: 3%;
 }
@@ -54,11 +54,15 @@ ul {
     display: flex;
 }
 
-.skillsText {
-    font-size: 0.85rem;
-}
 
 h4 {
     letter-spacing: .15rem;
-    font-size: 0.85rem;
+}
+
+.educationText {
+    letter-spacing: 0.1rem;
+}
+
+.jobBulletPoints {
+    list-style-type: disc;
 }
