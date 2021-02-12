@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
 
 .content h1 {
-    font-family: 'Abril Fatface',
-    cursive;
+   font-family: 'Kanit',
+   sans-serif;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;

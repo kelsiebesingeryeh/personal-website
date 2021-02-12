@@ -1,12 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-nav {
+
+.navbar {
+    display: grid;
+    min-height: 3rem;
+    grid-auto-flow: column;
+    grid-gap: 1.5rem;
+    padding: 0 40px;
     background: #333333;
+    color: #fff;
+    font-family: 'Montserrat',
+    sans-serif;
 }
 
-.navContent {
-    display: flex;
-    justify-content: space-between;
+.sticky {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+.icon {
+    width: 100%;
 }
 
 .navItems {
@@ -14,15 +28,24 @@ nav {
     justify-content: space-around;
     list-style-type: none;
     margin: 2%;
-    background: #333333;
     color: #FFF;
-    font-family: 'Vollkorn',
-    serif;
-    width: 100%;
+    font-weight: bold;
 }
 
-nav a {
+.iconsContainerRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    width: 20%;
+}
+
+a {
     text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
     color: #FFF;
 }
 
