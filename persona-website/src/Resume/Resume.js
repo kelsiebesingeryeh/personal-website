@@ -68,7 +68,10 @@ const Resume = () => {
                 Certified Scrum Master
               </p>
               <p className="educationText">Scrum Alliance</p>
-              <p style={{ fontWeight: "bold" }} className="educationText">
+              <p
+                style={{ fontWeight: "bold", paddingTop: "5%" }}
+                className="educationText"
+              >
                 Project Management Professional Certification
               </p>
               <p className="educationText">Project Management Institute</p>
@@ -82,7 +85,10 @@ const Resume = () => {
                 Turing School of Software & Design
               </p>
               <p className="educationText">April 2021</p>
-              <p style={{ fontWeight: "bold" }} className="educationText">
+              <p
+                style={{ fontWeight: "bold", paddingTop: "5%" }}
+                className="educationText"
+              >
                 Bachelor of Science, Business Adminstration
               </p>
               <p className="educationText">Old Dominion University</p>
@@ -104,8 +110,8 @@ const Resume = () => {
             </article>
             <article>
               <h3 className="subheadings">PORTFOLIO</h3>
-              <h4>Rancid Tomatillos</h4>
-              <p>
+              <h4 className="projectTitle">Rancid Tomatillos</h4>
+              <p style={{ margin: "0" }}>
                 <strong>GitHub</strong>
               </p>
               <ul className="jobBulletPoints">
@@ -118,7 +124,7 @@ const Resume = () => {
                   Cypress, InVision
                 </li>
               </ul>
-              <h4>Travel Tracker</h4>
+              <h4 className="projectTitle">Travel Tracker</h4>
               <strong>GitHub</strong>
               <ul className="jobBulletPoints">
                 <li>
@@ -133,18 +139,24 @@ const Resume = () => {
             </article>
 
             <article>
-              <h3 className="subheadings">PROFESSIONAL EXPERIENCE</h3>
-              <h4>Director of Event Operations</h4>
-              <p>KnowIt Events, Denver, CO</p>
-              <p>2019 - 2020</p>
+              <h3 className="subheadings" style={{ paddingTop: "1%" }}>
+                PROFESSIONAL EXPERIENCE
+              </h3>
+              <h4 className="jobTitle">Director of Event Operations</h4>
+              <span className="jobHistory">
+                <p className="companyNameCityName">KnowIt Events, Denver, CO</p>
+                <p className="year">2019 - 2020</p>
+              </span>
               <p>
                 An early-stage startup focused on building a new event around
                 intellectual property which led to a successful live-stream
                 conference with over 1,000 attendees.
               </p>
-              <h4>Project Manager</h4>
-              <p>HomeAdvisor, Denver, CO</p>
-              <p>2019 - 2019</p>
+              <h4 className="jobTitle">Project Manager</h4>
+              <span className="jobHistory">
+                <p className="companyNameCityName">HomeAdvisor, Denver, CO</p>
+                <p className="year">2019 - 2019</p>
+              </span>
               <p>
                 Managed the day-to-day aspects of various projects for sales
                 operations, including scope definition, resource allocation,
@@ -152,9 +164,11 @@ const Resume = () => {
                 cross-functional stakeholders in product, business intelligence
                 and finance to roll out new features for the internal CRM tool.
               </p>
-              <h4>Director of Operations</h4>
-              <p>Shoptalk, New York, NY</p>
-              <p> 2016 - 2019</p>
+              <h4 className="jobTitle">Director of Operations</h4>
+              <span className="jobHistory">
+                <p className="companyNameCityName">Shoptalk, New York, NY</p>
+                <p className="year">2016 - 2019</p>
+              </span>
               <p>
                 Oversaw and executed four industry events in the U.S. and
                 overseas including a successful European event launch. Grew
@@ -169,9 +183,11 @@ const Resume = () => {
                   adoption rate.
                 </li>
               </ul>
-              <h4>Director of Operations</h4>
-              <p>Money20/20, New York, NY</p>
-              <p>2014 - 2016</p>
+              <h4 className="jobTitle">Director of Operations</h4>
+              <span className="jobHistory">
+                <p className="companyNameCityName">Money20/20, New York, NY</p>
+                <p className="year">2014 - 2016</p>
+              </span>
               <p>
                 As first employee of startup company acquired for over $100
                 million, oversaw all aspects of operations throughout growth to

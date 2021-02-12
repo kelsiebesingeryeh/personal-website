@@ -1,0 +1,25 @@
+.contactPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.emailContact {
+    font-size: 3rem;
+    text-decoration: none;
+    border: 0.3rem solid #333333;
+    border-radius: 2.5rem;
+    color: #333333;
+    line-height: 100%;
+    height: 5rem;
+    width: 18.9rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}

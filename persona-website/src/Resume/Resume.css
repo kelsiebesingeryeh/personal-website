@@ -42,27 +42,54 @@
     margin-left: 2%;
 }
 
-ul {
+.contactIcons,
+.contactText {
     list-style-type: none;
+    padding: 0;
 }
 
 .resumeIcons {
-    width: 7%;
+    width: 10%;
 }
 
 .contactStyling {
     display: flex;
 }
 
-
 h4 {
-    letter-spacing: .15rem;
+    letter-spacing: .10rem;
 }
 
 .educationText {
     letter-spacing: 0.1rem;
+    margin: 0;
 }
 
 .jobBulletPoints {
     list-style-type: disc;
+    margin: 0;
+}
+
+.jobHistory {
+    display: flex;
+    font-weight: bold;
+}
+
+.companyNameCityName {
+    border-right: 1px solid black;
+    padding-right: 1%;
+    margin: 0;
+}
+
+.year {
+    margin: 0 1%;
+}
+
+.projectTitle {
+    margin: 0;
+    margin-top: 3%;
+}
+
+.jobTitle {
+    margin: 0;
 }
