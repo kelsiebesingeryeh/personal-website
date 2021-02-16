@@ -1,14 +1,35 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({title, shortOverview, stack, description}) => {
-    return (
-        <div className='projectDetailsCard'>
-            <p>{title}</p>
-            <p>{shortOverview}</p>
-            <p>{stack}</p>
-            <p>{description}</p>
+const Card = ({
+  title,
+  shortOverview,
+  stack,
+  description,
+  image,
+  liveDeployment,
+  gitHubRepo,
+}) => {
+  const stackSentence = stack.join("");
+  console.log(stackSentence);
+  return (
+      <>
+      <div className="cardContainer">
+        <div className="projectTitleContainer">
+            <p className="projectTitle">{title}</p>
         </div>
-    )
-}
+        <div className="projectDetailsCard">
+        <img src={image} alt='travelTrackerScreenShot' className='projectImage'></img>
+        <p>{shortOverview}</p>
+        <p>{stack}</p>
+        <p>{description}</p>
+        <span className="gitHubLinks">
+            <p>{liveDeployment}</p>
+            <p>{gitHubRepo}</p>
+        </span>
+        </div>
+    </div>
+    </>
+  );
+};
 export default Card

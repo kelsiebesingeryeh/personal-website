@@ -17,13 +17,16 @@ class Projects extends Component {
     return (
       <Card
         title={project.title}
+        image={project.image}
         id={project.id}
         key={project.id}
         shortOverview={project.shortOverview}
         stack={project.stack}
         description={project.description}
+        gitHubRepo={project.gitHubRepo}
+        liveDeployment={project.liveDeployment}
       />
-    )
+    );
   })
 }
 

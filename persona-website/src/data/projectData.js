@@ -2,6 +2,7 @@ const projectData = [
   {
     id: 1,
     title: "Rancid Tomatillos",
+    image: "",
     shortOverview: "Test Test",
     stack: ["JavaScript", "React", "SASS", "REST APIs", "Cypress", "InVision"],
     description:
@@ -12,6 +13,7 @@ const projectData = [
   {
     id: 2,
     title: "Travel Tracker",
+    image: "https://i.imgur.com/KkSjkxA.png",
     shortOverview: "Test Test",
     stack: [
       "JavaScript",
@@ -30,6 +32,7 @@ const projectData = [
   {
     id: 3,
     title: "FitLit",
+    image: "",
     shortOverview: "Test Test",
     stack: ["JavaScript", "HTML", "CSS", "Chart.js", "Mocha/Chai"],
     description:

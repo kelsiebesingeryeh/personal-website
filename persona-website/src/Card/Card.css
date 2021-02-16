@@ -1,3 +1,26 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .projectDetailsCard {
     border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.gitHubLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectImage {
+    width: 100%;
+}
+
+.projectTitle {
+    font-size: 3rem;
+    margin: 0;
 }
