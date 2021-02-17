@@ -10,25 +10,34 @@ const Card = ({
   liveDeployment,
   gitHubRepo,
 }) => {
-  const stackSentence = stack.join("");
-  console.log(stackSentence);
+   const returnStack = () => {
+       const stackSentence = stack.join(", ");
+       console.log(stackSentence);
+       return stackSentence
+    }
   return (
-      <>
+    <>
       <div className="cardContainer">
         <div className="projectTitleContainer">
-            <p className="projectTitle">{title}</p>
+          <p className="projectTitle">{title}</p>
         </div>
         <div className="projectDetailsCard">
-        <img src={image} alt='travelTrackerScreenShot' className='projectImage'></img>
-        <p>{shortOverview}</p>
-        <p>{stack}</p>
-        <p>{description}</p>
-        <span className="gitHubLinks">
+          <img
+            src={image}
+            alt="travelTrackerScreenShot"
+            className="projectImage"
+          ></img>
+          <p>{shortOverview}</p>
+          <p>
+            <strong>Tech Stack:</strong> {returnStack()}
+          </p>
+          <p>{description}</p>
+          <span className="gitHubLinks">
             <p>{liveDeployment}</p>
             <p>{gitHubRepo}</p>
-        </span>
+          </span>
         </div>
-    </div>
+      </div>
     </>
   );
 };
