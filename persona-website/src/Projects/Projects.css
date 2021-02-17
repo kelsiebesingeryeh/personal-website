@@ -1,7 +1,4 @@
 .projectContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
-    margin-top: 5%;
-    padding: 1rem;
+    grid-template-columns: 1fr 1fr;
 }
