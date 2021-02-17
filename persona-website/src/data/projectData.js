@@ -32,7 +32,7 @@ const projectData = [
   {
     id: 3,
     title: "FitLit",
-    image: "https://i.imgur.com/VeW30wV.png",
+    image: "https://i.imgur.com/DJ9g8SZ.png",
     shortOverview: "Fitness Application Dashboard",
     stack: ["JavaScript", "HTML", "CSS", "Chart.js", "Mocha/Chai"],
     description:
@@ -44,7 +44,7 @@ const projectData = [
   {
     id: 4,
     title: "Tic-Tac-Toe",
-    image: "https://i.imgur.com/EmP1F8K.png",
+    image: "https://i.imgur.com/3YHnIMk.png",
     shortOverview: "JavaScript Game",
     stack: ["Vanilla JavaScript", "HTML", "CSS", "Mocha/Chai"],
     description: "Created a tic-tac-toe game using Vanilla JavaScript",
