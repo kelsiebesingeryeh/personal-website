@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
 .content {
     display: flex;
@@ -46,5 +47,10 @@ h1 {
     margin: 2%;
     font-size: 5rem;
     text-align: center;
-    color: #F8C1CA;
+    color: #333333;
+}
+
+.aboutMe {
+font-family: 'Raleway',
+sans-serif;
 }
