@@ -124,8 +124,6 @@ h4 {
 
 .contactContainerText {
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: flex-start; */
     line-height: 1.75rem;
     padding-right: 6rem;
     align-self: flex-start;

@@ -11,3 +11,10 @@ export const contactData = [
   { id: 4, image: linkedin },
   { id: 5, image: github },
 ];
+
+export const skillsData = [
+    {
+        "technical": ["JavaScript", "HTML", "CSS/SASS", "React/Redux", "Node.js/Express", "Git/GitHub", "Data Structures", "REST"]
+        ,
+    }
+]

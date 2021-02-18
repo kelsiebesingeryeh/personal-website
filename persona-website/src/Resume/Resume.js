@@ -1,11 +1,16 @@
 import React from 'react'
 import './Resume.css'
 import { contactData } from '../data/resumeData'
+import { skillsData } from '../data/resumeData'
 
 const Resume = () => {
   const contactItems = contactData.map(item => {
     return <li key={item.id}><img src={item.image} className='resumeIcons'/></li>
   })
+  const skillItems = skillsData
+    .map((item) => {
+      return item.technical;
+    }).join('').replace(/,/g, ", ");
 
     return (
       <section className="resumeSection">
@@ -20,20 +25,30 @@ const Resume = () => {
                 <h3 className="subheadings">CONTACT</h3>
                 <div className="contactContainer">
                   <div className="contactContainerIcons">
-                    <ul className="contactIcons">
-                     {contactItems}
-                    </ul>
+                    <ul className="contactIcons">{contactItems}</ul>
                   </div>
                   <div className="contactContainerText">
                     <ul className="contactText">
                       <li>+1 646-246-7341</li>
-                      <li><a href="mailto:kelsiebesinger@gmail.com" target="_blank">
-                        kelsiebesinger@gmail.com</a></li>
+                      <li>
+                        <a
+                          href="mailto:kelsiebesinger@gmail.com"
+                          target="_blank"
+                        >
+                          kelsiebesinger@gmail.com
+                        </a>
+                      </li>
                       <li>Denver, CO</li>
-                      <li><a href="https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/">
-                        Kelsie Besinger Yeh</a></li>
-                      <li><a href="https://github.com/kelsiebesingeryeh">
-                        Kelsie Besinger Yeh</a></li>
+                      <li>
+                        <a href="https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/">
+                          Kelsie Besinger Yeh
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/kelsiebesingeryeh">
+                          Kelsie Besinger Yeh
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -42,10 +57,7 @@ const Resume = () => {
               <article>
                 <h3 className="subheadings">SKILLS</h3>
                 <h4>//TECHNICAL</h4>
-                <p className="skillsText">
-                  JavaScript, HTML, CSS/SASS, React/Redux, Node.js/Express,
-                  Git/GitHub, Data Structures, REST
-                </p>
+                <p className="skillsText">{skillItems}</p>
                 <h4>//TESTING & DEPLOYMENT</h4>
                 <p className="skillsText">
                   Mocha/Chai, Cypress, Postman, Heroku
