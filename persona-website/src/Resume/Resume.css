@@ -6,6 +6,11 @@
     font-size: 0.85rem;
 }
 
+.resumeContainer {
+    max-width: 75rem;
+    margin: auto;
+}
+
 .resumeName {
     font-size: 3.5rem;
     margin-top: 5%;
