@@ -66,37 +66,35 @@ const Resume = () => {
 
               <article>
                 <h3 className="subheadings">CERTIFICATIONS</h3>
-                <p style={{ fontWeight: "bold" }} className="educationText">
-                  Certified Scrum Master
+                <p className="educationText">
+                  <strong>Certified Scrum Master</strong>
                 </p>
                 <p className="educationText">Scrum Alliance</p>
-                <p
-                  style={{ fontWeight: "bold", paddingTop: "5%" }}
-                  className="educationText"
-                >
-                  Project Management Professional Certification
+                <p style={{ paddingTop: "5%" }} className="educationText">
+                  <strong>Project Management Professional Certification</strong>
                 </p>
                 <p className="educationText">Project Management Institute</p>
               </article>
+
               <article>
                 <h3 className="subheadings">EDUCATION</h3>
-                <p style={{ fontWeight: "bold" }} className="educationText">
-                  Front-End Engineering Student
+                <p className="educationText">
+                  <strong>Front-End Engineering Student</strong>
                 </p>
                 <p className="educationText">
                   Turing School of Software & Design
                 </p>
                 <p className="educationText">April 2021</p>
-                <p
-                  style={{ fontWeight: "bold", paddingTop: "5%" }}
-                  className="educationText"
-                >
-                  Bachelor of Science, Business Adminstration
+                <p style={{ paddingTop: "5%" }} className="educationText">
+                  <strong>Bachelor of Science, Business Adminstration</strong>
                 </p>
                 <p className="educationText">Old Dominion University</p>
               </article>
+
             </div>
+
             <div className="columnTwo">
+
               <article>
                 <h3 className="subheadings">OVERVIEW</h3>
                 <p style={{ fontSize: "0.85rem" }}>
@@ -110,6 +108,7 @@ const Resume = () => {
                   interfaces while architecting concise and maintainable code.
                 </p>
               </article>
+
               <article className="portfolioSection">
                 <h3 className="subheadings">PORTFOLIO</h3>
                 <h4 className="projectTitleResume">Rancid Tomatillos</h4>
@@ -223,33 +222,3 @@ const Resume = () => {
 }
 
 export default Resume
-
-
-
-//  <li>
-//                         <img className="resumeIcons" src={contactItems.phone} />
-//                       </li>
-//                       <li>
-//                         <img
-//                           className="resumeIcons"
-//                           src={contactItems.envelope}
-//                         />
-//                       </li>
-//                       <li>
-//                         <img
-//                           className="resumeIcons"
-//                           src={contactItems.mapMarker}
-//                         />
-//                       </li>
-//                       <li>
-//                         <img
-//                           className="resumeIcons"
-//                           src={contactItems.linkedin}
-//                         />
-//                       </li>
-//                       <li>
-//                         <img
-//                           className="resumeIcons"
-//                           src={contactItems.github}
-//                         />
-//                       </li>
