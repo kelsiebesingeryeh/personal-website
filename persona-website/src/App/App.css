@@ -1,10 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); */
 
 body {
   background: #F3EEE8;
-  font-family: 'Abril Fatface',
-  cursive;
+  font-family: 'chalmersTypeface';
   color: #333333;
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: "branch";
+  src: url('branch.woff');
+}
+
+@font-face {
+  font-family: "carphe";
+  src: url('carphe.woff');
+}
+
+@font-face {
+  font-family: "chalmersTypeface";
+  src: url('chalmersTypeface.woff');
+}
+
+@font-face {
+  font-family: "gourmetLeFrench";
+  src: url('gourmetLeFrench.woff');
 }
