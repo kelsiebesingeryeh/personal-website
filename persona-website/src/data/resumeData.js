@@ -13,8 +13,18 @@ export const contactData = [
 ];
 
 export const skillsData = [
-    {
-        "technical": ["JavaScript", "HTML", "CSS/SASS", "React/Redux", "Node.js/Express", "Git/GitHub", "Data Structures", "REST"]
-        ,
-    }
-]
+  {
+    technical: [
+      "JavaScript",
+      "HTML",
+      "CSS/SASS",
+      "React/Redux",
+      "Node.js/Express",
+      "Git/GitHub",
+      "Data Structures",
+      "REST",
+    ],
+    testing: ["Mocha / Chai", "Cypress", "Postman", "Heroku"],
+    tools: ["Jira/Confluence", "Google", "InVision", "GitHub Projects", "Agile Methodologies"]
+  },
+];

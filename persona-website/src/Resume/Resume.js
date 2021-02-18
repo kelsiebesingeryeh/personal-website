@@ -7,10 +7,10 @@ const Resume = () => {
   const contactItems = contactData.map(item => {
     return <li key={item.id}><img src={item.image} className='resumeIcons'/></li>
   })
-  const skillItems = skillsData
-    .map((item) => {
-      return item.technical;
-    }).join('').replace(/,/g, ", ");
+
+  const techItems = skillsData.map((item) =>item.technical).join('').replace(/,/g, ", ")
+  const testingItems = skillsData.map((item) => item.testing).join("").replace(/,/g, ", ")
+  const toolItems = skillsData.map((item) => item.tools).join("").replace(/,/g, ", ");
 
     return (
       <section className="resumeSection">
@@ -57,16 +57,11 @@ const Resume = () => {
               <article>
                 <h3 className="subheadings">SKILLS</h3>
                 <h4>//TECHNICAL</h4>
-                <p className="skillsText">{skillItems}</p>
+                <p className="skillsText">{techItems}</p>
                 <h4>//TESTING & DEPLOYMENT</h4>
-                <p className="skillsText">
-                  Mocha/Chai, Cypress, Postman, Heroku
-                </p>
+                <p className="skillsText">{testingItems}</p>
                 <h4>//TOOLS</h4>
-                <p className="skillsText">
-                  Jira/Confluence, Google, InVision, GitHub Project, Agile
-                  Methodologies
-                </p>
+                <p className="skillsText">{toolItems}</p>
               </article>
 
               <article>
