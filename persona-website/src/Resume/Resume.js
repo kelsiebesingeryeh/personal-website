@@ -110,7 +110,7 @@ const Resume = () => {
             </article>
             <article>
               <h3 className="subheadings">PORTFOLIO</h3>
-              <h4 className="projectTitle">Rancid Tomatillos</h4>
+              <h4 className="projectTitleResume">Rancid Tomatillos</h4>
               <p style={{ margin: "0" }}>
                 <strong>GitHub</strong>
               </p>
@@ -124,7 +124,7 @@ const Resume = () => {
                   Cypress, InVision
                 </li>
               </ul>
-              <h4 className="projectTitle">Travel Tracker</h4>
+              <h4 className="projectTitleResume">Travel Tracker</h4>
               <strong>GitHub</strong>
               <ul className="jobBulletPoints">
                 <li>
