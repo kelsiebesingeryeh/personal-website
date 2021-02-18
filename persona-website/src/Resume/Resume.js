@@ -10,7 +10,7 @@ import github from '../assets/github.svg'
 const Resume = () => {
     return (
       <section className="resumeSection">
-        <div className='resumeContainer'>
+        <div className="resumeContainer">
           <header>
             <h1 className="resumeName">KELSIE BESINGER</h1>
             <h3 className="resumeTitle">FRONTEND ENGINEER</h3>
@@ -19,31 +19,35 @@ const Resume = () => {
             <div className="columnOne">
               <article className="contactInfo">
                 <h3 className="subheadings">CONTACT</h3>
-                <div className="contactStyling">
-                  <ul className="contactIcons">
-                    <li>
-                      <img className="resumeIcons" src={phone} />
-                    </li>
-                    <li>
-                      <img className="resumeIcons" src={envelope} />
-                    </li>
-                    <li>
-                      <img className="resumeIcons" src={mapMarker} />
-                    </li>
-                    <li>
-                      <img className="resumeIcons" src={linkedin} />
-                    </li>
-                    <li>
-                      <img className="resumeIcons" src={github} />
-                    </li>
-                  </ul>
-                  <ul className="contactText">
-                    <li>+1 646-246-7341</li>
-                    <li>kelsiebesinger@gmail.com</li>
-                    <li>Denver, CO</li>
-                    <li>Kelsie Besinger Yeh</li>
-                    <li>Kelsie Besinger Yeh</li>
-                  </ul>
+                <div className='contactContainer'>
+                  <div className="contactContainerIcons">
+                    <ul className="contactIcons">
+                      <li>
+                        <img className="resumeIcons" src={phone} />
+                      </li>
+                      <li>
+                        <img className="resumeIcons" src={envelope} />
+                      </li>
+                      <li>
+                        <img className="resumeIcons" src={mapMarker} />
+                      </li>
+                      <li>
+                        <img className="resumeIcons" src={linkedin} />
+                      </li>
+                      <li>
+                        <img className="resumeIcons" src={github} />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="contactContainerText">
+                    <ul className="contactText">
+                      <li>+1 646-246-7341</li>
+                      <li>kelsiebesinger@gmail.com</li>
+                      <li>Denver, CO</li>
+                      <li>Kelsie Besinger Yeh</li>
+                      <li>Kelsie Besinger Yeh</li>
+                    </ul>
+                  </div>
                 </div>
               </article>
 
@@ -111,7 +115,7 @@ const Resume = () => {
                   interfaces while architecting concise and maintainable code.
                 </p>
               </article>
-              <article>
+              <article className="portfolioSection">
                 <h3 className="subheadings">PORTFOLIO</h3>
                 <h4 className="projectTitleResume">Rancid Tomatillos</h4>
                 <p style={{ margin: "0" }}>
@@ -123,8 +127,8 @@ const Resume = () => {
                     search, select and view different movies using REST APIs
                   </li>
                   <li>
-                    <strong>Stack:</strong> JavaScript, React, SASS, REST APIs,
-                    Cypress, InVision
+                    <strong>Stack:</strong> JavaScript, React, React Router,
+                    SASS, REST APIs, Cypress, InVision
                   </li>
                 </ul>
                 <h4 className="projectTitleResume">Travel Tracker</h4>
@@ -141,7 +145,7 @@ const Resume = () => {
                 </ul>
               </article>
 
-              <article>
+              <article className="professionalExperienceSection">
                 <h3 className="subheadings" style={{ paddingTop: "1%" }}>
                   PROFESSIONAL EXPERIENCE
                 </h3>
@@ -152,41 +156,43 @@ const Resume = () => {
                   </p>
                   <p className="year">2019 - 2020</p>
                 </span>
-                <p>
-                  An early-stage startup focused on building a new event around
-                  intellectual property which led to a successful live-stream
-                  conference with over 1,000 attendees.
-                </p>
+                <ul className="jobBulletPoints">
+                  <li>
+                    Organized and produced a successful live-steam conference
+                    for over 1,000 attendees at an early-stage startup
+                  </li>
+                </ul>
                 <h4 className="jobTitle">Project Manager</h4>
                 <span className="jobHistory">
                   <p className="companyNameCityName">HomeAdvisor, Denver, CO</p>
                   <p className="year">2019 - 2019</p>
                 </span>
-                <p>
-                  Managed the day-to-day aspects of various projects for sales
-                  operations, including scope definition, resource allocation,
-                  dependencies, and business outcomes. Collaborated with
-                  cross-functional stakeholders in product, business
-                  intelligence and finance to roll out new features for the
-                  internal CRM tool.
-                </p>
+                <ul className="jobBulletPoints">
+                  <li>
+                    Managed the day-to-day aspects of various projects for sales
+                    operations, including scope definition, resource allocation,
+                    dependencies, and business outcomes
+                  </li>
+                  <li>
+                    Collaborated with cross-functional stakeholders in product,
+                    business intelligence and finance to roll out new features
+                    for the internal CRM tool
+                  </li>
+                </ul>
                 <h4 className="jobTitle">Director of Operations</h4>
                 <span className="jobHistory">
                   <p className="companyNameCityName">Shoptalk, New York, NY</p>
                   <p className="year">2016 - 2019</p>
                 </span>
-                <p>
-                  Oversaw and executed four industry events in the U.S. and
-                  overseas including a successful European event launch. Grew
-                  conference from 2,000 attendees to over 8,500 attendees in
-                  less than 3 years to becoming the world’s largest retail and
-                  e-commerce conference.{" "}
-                </p>
                 <ul className="jobBulletPoints">
                   <li>
-                    Oversaw launch of platforms including event registration
+                    Oversaw and executed one of the world's largest retail and
+                    e-commerce conferences with over 9,000+ attendees
+                  </li>
+                  <li>
+                    Launched various platforms including event registration
                     software and mobile application which achieved an 80%
-                    attendee adoption rate.
+                    attendee adoption rate
                   </li>
                 </ul>
                 <h4 className="jobTitle">Director of Operations</h4>
@@ -196,18 +202,16 @@ const Resume = () => {
                   </p>
                   <p className="year">2014 - 2016</p>
                 </span>
-                <p>
-                  As first employee of startup company acquired for over $100
-                  million, oversaw all aspects of operations throughout growth
-                  to exponential increase in event attendance from 2,000
-                  attendees to over 10,000 attendees at world’s largest FinTech
-                  conference.
-                </p>
                 <ul className="jobBulletPoints">
                   <li>
+                    As first employee of startup company acquired for over $100
+                    million, oversaw all aspects of operations throughout growth
+                    to becoming the world’s largest FinTech conference.
+                  </li>
+                  <li>
                     Organized the largest FinTech Hackathon in the world with
-                    over 500 developers, which was voted top 5 Hackathons in the
-                    world by Tech Crunch
+                    over 500 developers, which was voted top 5 Hackathons by
+                    Tech Crunch
                   </li>
                   <li>
                     Implemented several API integrations with third-party

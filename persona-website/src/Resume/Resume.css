@@ -54,7 +54,7 @@
 }
 
 .resumeIcons {
-    width: 10%;
+    width: 100%;
 }
 
 .contactStyling {
@@ -90,15 +90,44 @@ h4 {
     margin: 0 1%;
 }
 
-.projectTitle {
-    margin: 0;
-    margin-top: 3%;
-}
-
+.projectTitle,
 .jobTitle {
     margin: 0;
+    margin-top: 3%;
 }
 
 .subheadings {
     padding-top: 1%;
 }
+
+.portfolioSection,
+.professionalExperienceSection {
+    padding-top: 4%;
+}
+
+.projectTitleResume {
+    margin: 0;
+    margin-top: 2%;
+}
+
+.contactIcons {
+    width: 35%;
+}
+
+.contactContainer {
+    display: flex;
+}
+.contactContainerIcons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactContainerText {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    line-height: 1.75rem;
+    padding-right: 6rem;
+    align-self: flex-start;
+}
+
