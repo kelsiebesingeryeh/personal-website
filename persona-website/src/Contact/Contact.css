@@ -22,10 +22,10 @@
     color: #333333;
     cursor: pointer;
     text-align: center;
-    padding: 15px 25px;
+    padding: 4px 20px;
     font-weight: bold;
-    font-family: 'Montserrat',
-    sans-serif;
+    margin-top: 1%;
+    font-family: 'branch';
 }
 
 .emailContact:hover {
