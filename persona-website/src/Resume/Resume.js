@@ -1,13 +1,12 @@
 import React from 'react'
 import './Resume.css'
-import envelope from '../assets/envelope.svg'
-import phone from '../assets/phone.svg'
-import mapMarker from '../assets/mapMarker.svg'
-import linkedin from '../assets/linkedin.svg'
-import github from '../assets/github.svg'
-
+import { contactData } from '../data/resumeData'
 
 const Resume = () => {
+  const contactItems = contactData.map(item => {
+    return <li key={item.id}><img src={item.image} className='resumeIcons'/></li>
+  })
+
     return (
       <section className="resumeSection">
         <div className="resumeContainer">
@@ -19,33 +18,22 @@ const Resume = () => {
             <div className="columnOne">
               <article className="contactInfo">
                 <h3 className="subheadings">CONTACT</h3>
-                <div className='contactContainer'>
+                <div className="contactContainer">
                   <div className="contactContainerIcons">
                     <ul className="contactIcons">
-                      <li>
-                        <img className="resumeIcons" src={phone} />
-                      </li>
-                      <li>
-                        <img className="resumeIcons" src={envelope} />
-                      </li>
-                      <li>
-                        <img className="resumeIcons" src={mapMarker} />
-                      </li>
-                      <li>
-                        <img className="resumeIcons" src={linkedin} />
-                      </li>
-                      <li>
-                        <img className="resumeIcons" src={github} />
-                      </li>
+                     {contactItems}
                     </ul>
                   </div>
                   <div className="contactContainerText">
                     <ul className="contactText">
                       <li>+1 646-246-7341</li>
-                      <li>kelsiebesinger@gmail.com</li>
+                      <li><a href="mailto:kelsiebesinger@gmail.com" target="_blank">
+                        kelsiebesinger@gmail.com</a></li>
                       <li>Denver, CO</li>
-                      <li>Kelsie Besinger Yeh</li>
-                      <li>Kelsie Besinger Yeh</li>
+                      <li><a href="https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/">
+                        Kelsie Besinger Yeh</a></li>
+                      <li><a href="https://github.com/kelsiebesingeryeh">
+                        Kelsie Besinger Yeh</a></li>
                     </ul>
                   </div>
                 </div>
@@ -228,3 +216,33 @@ const Resume = () => {
 }
 
 export default Resume
+
+
+
+//  <li>
+//                         <img className="resumeIcons" src={contactItems.phone} />
+//                       </li>
+//                       <li>
+//                         <img
+//                           className="resumeIcons"
+//                           src={contactItems.envelope}
+//                         />
+//                       </li>
+//                       <li>
+//                         <img
+//                           className="resumeIcons"
+//                           src={contactItems.mapMarker}
+//                         />
+//                       </li>
+//                       <li>
+//                         <img
+//                           className="resumeIcons"
+//                           src={contactItems.linkedin}
+//                         />
+//                       </li>
+//                       <li>
+//                         <img
+//                           className="resumeIcons"
+//                           src={contactItems.github}
+//                         />
+//                       </li>
