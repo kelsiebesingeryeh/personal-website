@@ -6,6 +6,11 @@
     font-size: 0.85rem;
 }
 
+.resumeContainer {
+    max-width: 75rem;
+    margin: auto;
+}
+
 .resumeName {
     font-size: 3.5rem;
     margin-top: 5%;
@@ -49,7 +54,7 @@
 }
 
 .resumeIcons {
-    width: 10%;
+    width: 100%;
 }
 
 .contactStyling {
@@ -85,15 +90,46 @@ h4 {
     margin: 0 1%;
 }
 
-.projectTitle {
+.projectTitle,
+.jobTitle {
     margin: 0;
     margin-top: 3%;
 }
 
-.jobTitle {
-    margin: 0;
-}
-
 .subheadings {
     padding-top: 1%;
+}
+
+.portfolioSection,
+.professionalExperienceSection {
+    padding-top: 2%;
+}
+
+.projectTitleResume {
+    margin: 0;
+    margin-top: 2%;
+}
+
+.contactIcons {
+    width: 35%;
+}
+
+.contactContainer {
+    display: flex;
+}
+.contactContainerIcons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactContainerText {
+    display: flex;
+    line-height: 1.75rem;
+    padding-right: 6rem;
+    align-self: flex-start;
+}
+
+.contactText a {
+    color: #333333;
+    text-decoration: underline;
 }
