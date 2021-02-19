@@ -8,6 +8,7 @@ import Contact from '../Contact/Contact'
 import { Route } from 'react-router-dom'
 
 class App extends Component {
+
   render() {
     return (
       <main className="App">
