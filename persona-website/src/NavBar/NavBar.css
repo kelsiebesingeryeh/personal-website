@@ -1,22 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
 .navbar {
     display: grid;
     min-height: 3rem;
     grid-auto-flow: column;
     grid-gap: 1.5rem;
-    padding: 0 40px;
     background: #333333;
     color: #fff;
-    font-family: 'Montserrat',
+    font-family: 'Raleway',
     sans-serif;
-}
-
-.sticky {
-    position: sticky;
-    top: 0;
-    align-self: flex-start;
+    position: fixed;
+    width: 100%;
 }
 
 .icon {
@@ -25,19 +17,24 @@
 
 .navItems {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
-    margin: 2%;
     color: #FFF;
     font-weight: bold;
 }
 
-.iconsContainerRight {
+.iconsContainerLeft {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #FFF;
     width: 20%;
+    margin-left: 2rem;
+}
+
+.navContainerRight {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
 }
 
 a {
@@ -45,7 +42,11 @@ a {
     color: #FFF;
 }
 
-a:hover {
-    color: #FFF;
+/* li:hover {
+    border: 1px solid yellow;
+} */
+
+.navLinks {
+    margin-left: 2rem;
 }
 

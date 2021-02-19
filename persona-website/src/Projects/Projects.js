@@ -32,10 +32,13 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="projectContainer">
-        {this.projectsToDisplay()}
-      </div>
-    )
+      <>
+          <h1 className='projectTitlePage'>Projects</h1>
+        <div className="projectContainer">
+          {this.projectsToDisplay()}
+          </div>
+        </>
+    );
   }
 }
 

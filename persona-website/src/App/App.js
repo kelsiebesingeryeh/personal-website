@@ -11,9 +11,11 @@ class App extends Component {
   render() {
     return (
       <main className="App">
-        <header>
-          <NavBar />
-        </header>
+        <div>
+          <header>
+            <NavBar />
+          </header>
+        </div>
         <Route exact path='/' component={Home}/>
         <Route 
           exact path='/:page'

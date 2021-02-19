@@ -4,3 +4,8 @@
     max-width: 1200px;
     margin: auto;
 }
+
+.projectTitlePage {
+    margin: 0;
+    padding-top: 6rem;
+}
