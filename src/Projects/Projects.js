@@ -3,7 +3,6 @@ import Card from "../Card/Card"
 import './Projects.css'
 import projectData from '../data/projectData'
 
-
 class Projects extends Component {
   constructor() {
     super()
@@ -32,14 +31,13 @@ class Projects extends Component {
 
   render() {
     return (
-      <>
-          <h1 className='projectTitlePage'>Projects</h1>
         <div className="projectContainer">
           {this.projectsToDisplay()}
           </div>
-        </>
     );
   }
 }
 
 export default Projects;
+
+{/* <h1 className='projectTitlePage'>Projects</h1> */}

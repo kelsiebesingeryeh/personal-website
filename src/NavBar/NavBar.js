@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.css'
-import { NavLink} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -16,7 +16,7 @@ const NavBar = () => {
           <a href="https://github.com/kelsiebesingeryeh">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/">
+          <a href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}>
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </div>
@@ -24,16 +24,16 @@ const NavBar = () => {
         <div className="navContainerRight">
           <ul className="navItems">
             <li className="navLinks">
-              <NavLink to="/">Home</NavLink>
+              <Link to="/">Home</Link>
             </li>
             <li className="navLinks">
-              <NavLink to="/projects">Projects</NavLink>
+              <Link to="/projects">Projects</Link>
             </li>
             <li className="navLinks">
-              <NavLink to="/resume">Resume</NavLink>
+              <Link to="/resume">Resume</Link>
             </li>
             <li className="navLinks">
-              <NavLink to="/contact">Contact</NavLink>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
