@@ -31,13 +31,14 @@ class Projects extends Component {
 
   render() {
     return (
+      <>
+      <h1 className='projectTitlePage'>Projects</h1>
         <div className="projectContainer">
           {this.projectsToDisplay()}
           </div>
+          </>
     );
   }
 }
 
 export default Projects;
-
-{/* <h1 className='projectTitlePage'>Projects</h1> */}
