@@ -11,12 +11,12 @@
     border: 1px solid $dark-charcoal;
     border-radius: 8px;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     padding: 1rem;
     font-family: $raleway-font;
     background: $linen;
     height: 100%;
-    justify-content: space-around;
 }
 
 .gitHubLinks {
