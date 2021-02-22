@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from "../Card/Card"
-import './Projects.css'
+import './Projects.scss'
 import projectData from '../data/projectData'
 
 class Projects extends Component {
