@@ -1,15 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); */
+@import '../styles/base';
 
 body {
   background: #F3EEE8;
-  font-family: 'chalmersTypeface';
+  font-family: $chalmersTypeface-font;
   color: #333333;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
   font-family: "branch";
   src: url('branch.woff');
 }
@@ -22,5 +22,5 @@ body {
 @font-face {
   font-family: "chalmersTypeface";
   src: url('chalmersTypeface.woff');
-}
+} */
 

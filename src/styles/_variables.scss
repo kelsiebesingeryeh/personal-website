@@ -1,0 +1,20 @@
+$chalmersTypeface-font:'chalmersTypeface', sans-serif;
+$carphe-font: 'carphe', sans-serif;
+$branch-font: 'branch', sans-serif;
+
+
+
+@font-face {
+    font-family: "branch";
+    src: url('branch.woff');
+}
+
+@font-face {
+    font-family: "carphe";
+    src: url('carphe.woff');
+}
+
+@font-face {
+    font-family: "chalmersTypeface";
+    src: url('chalmersTypeface.woff');
+}
