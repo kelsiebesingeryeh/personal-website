@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '../styles/base';
 
 .cardContainer {
     padding: 1rem;
@@ -8,14 +8,13 @@
 }
 
 .projectDetailsCard {
-    border: 1px solid #333333;
+    border: 1px solid $dark-charcoal;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    font-family: 'Raleway',
-    sans-serif;
-    background: #FDFBF5;
+    font-family: $raleway-font;
+    background: $linen;
     height: 100%;
     justify-content: space-around;
 }
@@ -42,8 +41,8 @@
 }
 
 .projectLinks {
-    color: #333333;
-    border: 1px solid #333333;
+    color: $dark-charcoal;
+    border: 1px solid $dark-charcoal;
     border-radius: 8px;
     cursor: pointer;
     padding: 15px 25px;
@@ -51,7 +50,7 @@
 }
 
 .projectLinks:hover {
-    background: #333333;
+    background: $dark-charcoal;
 }
 
 .imageContainer {
