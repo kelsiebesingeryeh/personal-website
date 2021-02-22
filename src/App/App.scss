@@ -1,26 +1,10 @@
 @import '../styles/base';
 
 body {
-  background: #F3EEE8;
+  background: $linen;
   font-family: $chalmersTypeface-font;
-  color: #333333;
+  color: $dark-charcoal;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* @font-face {
-  font-family: "branch";
-  src: url('branch.woff');
-}
-
-@font-face {
-  font-family: "carphe";
-  src: url('carphe.woff');
-}
-
-@font-face {
-  font-family: "chalmersTypeface";
-  src: url('chalmersTypeface.woff');
-} */
-
