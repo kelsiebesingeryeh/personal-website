@@ -1,12 +1,13 @@
+@import '../styles/base';
+
 .navbar {
     display: grid;
     min-height: 3rem;
     grid-auto-flow: column;
     grid-gap: 1.5rem;
-    background: #333333;
-    color: #fff;
-    font-family: 'Raleway',
-    sans-serif;
+    background: $dark-charcoal;
+    color: $linen;
+    font-family: $raleway-font;
     position: fixed;
     width: 100%;
 }
@@ -18,7 +19,7 @@
 .navItems {
     display: flex;
     list-style-type: none;
-    color: #FFF;
+    color:$linen;
     font-weight: bold;
 }
 
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #FFF;
+    color: $linen;
     width: 20%;
     margin-left: 2rem;
 }
@@ -39,12 +40,8 @@
 
 a {
     text-decoration: none;
-    color: #FFF;
+    color:$linen;
 }
-
-/* li:hover {
-    border: 1px solid yellow;
-} */
 
 .navLinks {
     margin-left: 2rem;
