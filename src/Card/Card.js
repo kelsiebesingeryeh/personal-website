@@ -31,12 +31,12 @@ const stackSentence = stack.join(", ");
           </p>
           <p>{description}</p>
           {title === "Travel Tracker" && (
-              <p>
-                <em>Login Information:</em><br></br>
-                <strong>username:</strong> traveler5<br></br>
-                <strong> password:</strong> travel2020
-              </p>
-
+            <p>
+              <em>Login Information:</em>
+              <br></br>
+              <strong>username:</strong> traveler5<br></br>
+              <strong> password:</strong> traveler2020
+            </p>
           )}
           <span className="gitHubLinks">
             <a href={liveDeployment} className="projectLinks" target="_blank">
