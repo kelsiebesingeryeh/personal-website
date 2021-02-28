@@ -4,7 +4,15 @@ const projectData = [
     title: "Rancid Tomatillos",
     image: "https://i.imgur.com/nkJYOHd.jpg",
     shortOverview: "Movie Rating Application",
-    stack: ["JavaScript", "React", "React Router", "SASS", "REST APIs", "Cypress", "InVision"],
+    stack: [
+      "JavaScript",
+      "React",
+      "React Router",
+      "SASS",
+      "REST APIs",
+      "Cypress",
+      "InVision",
+    ],
     description:
       "Built a multi-page movie application that allows users to search, select and view different movies using REST APIs",
     gitHubRepo: "https://github.com/kelsiebesingeryeh/rancid-tomatillos",
@@ -27,7 +35,8 @@ const projectData = [
     description:
       "Developed a travel tracking application that allows users to manage, track and book different trips using RESTful APIs",
     gitHubRepo: "https://github.com/kelsiebesingeryeh/kelsie-travel-tracker",
-    liveDeployment: "https://kelsie-travel-tracker.herokuapp.com/",
+    liveDeployment:
+      "https://kelsiebesingeryeh.github.io/kelsie-travel-tracker/",
   },
   {
     id: 3,
