@@ -35,8 +35,7 @@ const projectData = [
     description:
       "Developed a travel tracking application that allows users to manage, track and book different trips using RESTful APIs",
     gitHubRepo: "https://github.com/kelsiebesingeryeh/kelsie-travel-tracker",
-    liveDeployment:
-      "https://kelsiebesingeryeh.github.io/kelsie-travel-tracker/",
+    liveDeployment:"https://kelsiebesingeryeh.github.io/kelsie-travel-tracker/",
   },
   {
     id: 3,

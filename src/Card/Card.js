@@ -16,20 +16,28 @@ const stackSentence = stack.join(", ");
   return (
     <>
       <div className="cardContainer">
-          <p className="projectTitle">{title}</p>
+        <p className="projectTitle">{title}</p>
         <div className="projectDetailsCard">
           <div className="imageContainer">
-              <img
-                src={image}
-                alt="travelTrackerScreenShot"
-                className="projectImage"
-              ></img>
+            <img
+              src={image}
+              alt="travelTrackerScreenShot"
+              className="projectImage"
+            ></img>
           </div>
           <p>{shortOverview}</p>
           <p>
             <strong>Tech Stack:</strong> {stackSentence}
           </p>
           <p>{description}</p>
+          {title === "Travel Tracker" && (
+              <p>
+                <em>Login Information:</em><br></br>
+                <strong>username:</strong> traveler5<br></br>
+                <strong> password:</strong> travel2020
+              </p>
+
+          )}
           <span className="gitHubLinks">
             <a href={liveDeployment} className="projectLinks" target="_blank">
               Live Deployment
