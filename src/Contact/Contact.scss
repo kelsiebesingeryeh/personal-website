@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '../styles/base';
 
 .contactPage {
     width: 100vw;
@@ -15,17 +15,17 @@
 
 .emailContact {
     font-size: 3rem;
-    border: 1px solid #333333;
+    border: 1px solid $dark-charcoal;
     border-radius: 8px;
-    color: #333333;
+    color: $dark-charcoal;
     cursor: pointer;
     text-align: center;
     padding: 4px 20px;
     font-weight: bold;
     margin-top: 1%;
-    font-family: 'branch';
+    font-family: $branch-font;
 }
 
 .emailContact:hover {
-    background: #333333;
+    background: $dark-charcoal;
 }

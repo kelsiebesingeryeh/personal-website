@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import '../styles/base';
 
 .resumeSection {
-    font-family: 'Raleway',
-    sans-serif;
+    font-family: $raleway-font;
     font-size: 0.85rem;
 }
 
@@ -28,7 +27,7 @@
 .subheadings {
     letter-spacing: 0.3rem;
     font-size: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $dark-charcoal;
     padding-bottom: 1.5%;
 }
 
@@ -40,7 +39,7 @@
 
 .columnOne {
     width: 30%;
-    border-right: 1px solid black;
+    border-right: 1px solid $dark-charcoal;
     padding-right: 3%;
 }
 
@@ -83,7 +82,7 @@ h4 {
 }
 
 .companyNameCityName {
-    border-right: 1px solid black;
+    border-right: 1px solid $dark-charcoal;
     padding-right: 1%;
     margin: 0;
 }
@@ -132,6 +131,6 @@ h4 {
 }
 
 .contactText a {
-    color: #333333;
+    color: $dark-charcoal;
     text-decoration: underline;
 }

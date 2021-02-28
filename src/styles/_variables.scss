@@ -1,0 +1,27 @@
+$chalmersTypeface-font:'chalmersTypeface', sans-serif;
+$carphe-font: 'carphe', sans-serif;
+$branch-font: 'branch', sans-serif;
+$raleway-font: 'Raleway', sans-serif;
+$gotham-bold-font: 'gothamBold', sans-serif;
+$dark-charcoal: #333333;
+$linen: #F3EEE8;
+
+@font-face {
+    font-family: "branch";
+    src: url('branch.woff');
+}
+
+@font-face {
+    font-family: "carphe";
+    src: url('carphe.woff');
+}
+
+@font-face {
+    font-family: "chalmersTypeface";
+    src: url('chalmersTypeface.woff');
+}
+
+@font-face {
+    font-family: 'gothamBold';
+    src: url('gothamBold.ttf');
+}

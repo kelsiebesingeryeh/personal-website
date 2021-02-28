@@ -1,0 +1,10 @@
+@import '../styles/base';
+
+body {
+  background: $linen;
+  font-family: $chalmersTypeface-font;
+  color: $dark-charcoal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

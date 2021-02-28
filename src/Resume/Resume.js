@@ -1,5 +1,5 @@
 import React from 'react'
-import './Resume.css'
+import './Resume.scss'
 import { contactData } from '../data/resumeData'
 import { skillsData } from '../data/resumeData'
 
