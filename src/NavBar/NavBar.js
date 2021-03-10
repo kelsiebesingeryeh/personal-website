@@ -5,10 +5,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const NavBar = () => {
     return (
       <nav className="navbar">
+        
+        <div className='hamburgerMenu hidden'>
+          <FontAwesomeIcon icon={faBars} />
+        </div>
+
         <div className="iconsContainerLeft">
           <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
             <FontAwesomeIcon icon={faEnvelope} />

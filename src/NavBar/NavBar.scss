@@ -47,3 +47,21 @@ a {
     margin-left: 2rem;
 }
 
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .iconsContainerLeft,
+    .navContainerRight {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+        margin-right: 2rem;
+        display: block;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
