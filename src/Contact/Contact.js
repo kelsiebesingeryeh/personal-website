@@ -13,6 +13,6 @@ const Contact = () => {
           </a>
         </section>
       </div>
-    );
+    )
 }
 export default Contact

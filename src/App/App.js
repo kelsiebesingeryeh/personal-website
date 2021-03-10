@@ -21,14 +21,14 @@ class App extends Component {
               path="/:page"
               render={({ match }) => {
                 if (match.params.page === "projects") {
-                  return <Projects />;
+                  return <Projects />
                 } else if (match.params.page === "resume") {
-                  return <Resume />;
+                  return <Resume />
                 } else if (match.params.page === "contact") {
-                  return <Contact />;
+                  return <Contact />
                 } else if (match.params.page === "/") {
-                  console.log(match);
-                  return <Home />;
+                  console.log(match)
+                  return <Home />
                 }
               }}
             />

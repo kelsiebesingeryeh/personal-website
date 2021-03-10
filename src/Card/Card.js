@@ -49,6 +49,6 @@ const stackSentence = stack.join(", ");
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 export default Card
