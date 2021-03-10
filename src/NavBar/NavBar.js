@@ -13,12 +13,12 @@ const NavBar = () => {
     return (
       <nav className="navbar">
         <div className="hamburgerMenu hidden">
-          <FontAwesomeIcon icon={faBars} />
+          {/* <FontAwesomeIcon icon={faBars} /> */}
           <input type="checkbox" />
           <span></span>
           <span></span>
           <span></span>
-          <ul>
+          <ul className='menu'>
             <li>
               <Link to="/">Home</Link>
             </li>
