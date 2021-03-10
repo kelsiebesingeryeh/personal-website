@@ -1,22 +1,70 @@
 import React from 'react'
 import './NavBar.scss'
 import { Link} from 'react-router-dom'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
+
 
 const NavBar = () => {
     return (
       <nav className="navbar">
+        <div className="hamburgerMenu hidden">
+          {/* <FontAwesomeIcon icon={faBars} /> */}
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul className='menu'>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/kelsiebesingeryeh" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </li>
+            <li>
+              <a
+                href={
+                  "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="iconsContainerLeft">
           <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="https://github.com/kelsiebesingeryeh">
+          <a href="https://github.com/kelsiebesingeryeh" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}>
+          <a
+            href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </div>

@@ -90,14 +90,12 @@ const Resume = () => {
                 </p>
                 <p className="educationText">Old Dominion University</p>
               </article>
-
             </div>
 
             <div className="columnTwo">
-
               <article>
                 <h3 className="subheadings">OVERVIEW</h3>
-                <p style={{ fontSize: "0.85rem" }}>
+                <p className="overviewText">
                   I am a process-oriented thinker with over 8 years of
                   experience as an operations leader for some of the world’s
                   largest tech conferences. I am a well-rounded engineer who
@@ -112,7 +110,7 @@ const Resume = () => {
               <article className="portfolioSection">
                 <h3 className="subheadings">PORTFOLIO</h3>
                 <h4 className="projectTitleResume">Rancid Tomatillos</h4>
-                <p style={{ margin: "0" }}>
+                <p className='gitHub'>
                   <strong>GitHub</strong>
                 </p>
                 <ul className="jobBulletPoints">
@@ -126,7 +124,9 @@ const Resume = () => {
                   </li>
                 </ul>
                 <h4 className="projectTitleResume">Travel Tracker</h4>
-                <strong>GitHub</strong>
+                <p className='gitHub'>
+                  <strong>GitHub</strong>
+                </p>
                 <ul className="jobBulletPoints">
                   <li>
                     Developed a travel tracking application that allows users to
@@ -140,7 +140,7 @@ const Resume = () => {
               </article>
 
               <article className="professionalExperienceSection">
-                <h3 className="subheadings" style={{ paddingTop: "1%" }}>
+                <h3 className="subheadings">
                   PROFESSIONAL EXPERIENCE
                 </h3>
                 <h4 className="jobTitle">Director of Event Operations</h4>
@@ -218,7 +218,7 @@ const Resume = () => {
           </div>
         </div>
       </section>
-    );
+    )
 }
 
 export default Resume

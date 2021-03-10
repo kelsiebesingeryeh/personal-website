@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2965b09f.chunk.css",
+    "main.js": "./static/js/main.57ceac63.chunk.js",
+    "main.js.map": "./static/js/main.57ceac63.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.1991150d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.1991150d.js.map",
+    "static/js/2.bc7bc8f9.chunk.js": "./static/js/2.bc7bc8f9.chunk.js",
+    "static/js/2.bc7bc8f9.chunk.js.map": "./static/js/2.bc7bc8f9.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.2965b09f.chunk.css.map": "./static/css/main.2965b09f.chunk.css.map",
+    "static/js/2.bc7bc8f9.chunk.js.LICENSE.txt": "./static/js/2.bc7bc8f9.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "./static/media/gothamBold.e7e90266.ttf",
+    "static/media/envelope.80b23b18.svg": "./static/media/envelope.80b23b18.svg",
+    "static/media/github.5eea8d09.svg": "./static/media/github.5eea8d09.svg",
+    "static/media/linkedin.f4041044.svg": "./static/media/linkedin.f4041044.svg",
+    "static/media/mapMarker.d9fe5579.svg": "./static/media/mapMarker.d9fe5579.svg",
+    "static/media/phone.4d83d6ed.svg": "./static/media/phone.4d83d6ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1991150d.js",
+    "static/js/2.bc7bc8f9.chunk.js",
+    "static/css/main.2965b09f.chunk.css",
+    "static/js/main.57ceac63.chunk.js"
+  ]
+}

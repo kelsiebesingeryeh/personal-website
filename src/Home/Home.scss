@@ -15,7 +15,7 @@
     margin: 0 auto;
     animation:
         typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+        blink-caret .75s step-end;
 }
 
 @keyframes typing {
@@ -49,4 +49,15 @@ h1 {
 
 .aboutMe {
 font-family: $raleway-font;
+}
+
+@media screen and (max-width: 550px) {
+    .h1Animation {
+        font-size: 3rem;
+    }
+
+    .aboutMe {
+        text-align: center;
+    }
+
 }
