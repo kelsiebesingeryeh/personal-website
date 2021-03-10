@@ -13,10 +13,13 @@ const NavBar = () => {
           <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="https://github.com/kelsiebesingeryeh">
+          <a href="https://github.com/kelsiebesingeryeh" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}>
+          <a
+            href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </div>
