@@ -57,3 +57,20 @@
 .imageContainer {
     display: flex;
 }
+
+@media screen and (max-width: 550px) {
+    .projectTitle {
+        font-size: 2rem;
+    }
+
+    .gitHubLinks {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+    }
+
+    .projectLinks {
+        padding: 15px 25px;
+        font-size: 0.75rem;
+    }
+}

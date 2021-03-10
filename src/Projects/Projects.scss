@@ -11,3 +11,13 @@
     margin: 0;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 550px) {
+    .projectContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .projectTitlePage {
+        font-size: 3rem;
+    }
+}

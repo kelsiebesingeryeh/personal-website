@@ -57,6 +57,11 @@ a {
         display: none;
     }
 
+    .aboutMe {
+        font-size: 0.85rem;
+        padding: 1rem;
+    }
+
     .hamburgerMenu {
         display: block;
         padding: 1rem;
@@ -68,13 +73,8 @@ a {
     .hamburgerMenu a {
         text-decoration: none;
         color: $linen;
-
         transition: color 0.3s ease;
     }
-
-    // .hamburgerMenu a:hover {
-    //     color: tomato;
-    // }
 
     .hamburgerMenu input {
         display: block;
@@ -83,14 +83,11 @@ a {
         position: absolute;
         top: -7px;
         left: -5px;
-
         cursor: pointer;
-
         opacity: 0;
         /* hide this */
         z-index: 2;
         /* and place it over the hamburger */
-
         -webkit-touch-callout: none;
     }
 
@@ -103,14 +100,10 @@ a {
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-
         background: $linen;
         border-radius: 3px;
-
         z-index: 1;
-
         transform-origin: 4px 0px;
-
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
             background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
             opacity 0.55s ease;
@@ -159,14 +152,11 @@ a {
         margin: -100px 0 0 -50px;
         padding: 3.125rem;
         padding-top: 7rem;
-
         background: $dark-charcoal;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
-
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
-
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     }
 
