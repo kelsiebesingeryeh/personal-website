@@ -5,6 +5,7 @@ import Resume from '../Resume/Resume'
 import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {

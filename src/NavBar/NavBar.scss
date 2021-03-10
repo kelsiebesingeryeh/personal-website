@@ -59,6 +59,10 @@ a {
 
     .hamburgerMenu {
         display: block;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
         margin-right: 2rem;
         display: block;
         padding: 1rem;
