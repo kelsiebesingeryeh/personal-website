@@ -22,8 +22,7 @@ const NavBar = () => {
            </a>
            <a
             href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}
-            target="_blank"
-          >
+            target="_blank">
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </div>
