@@ -48,10 +48,34 @@ h1 {
 }
 
 .aboutMe {
-font-family: $raleway-font;
+    font-family: $raleway-font;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .h1Animation {
+        font-size: 4rem;
+    }
+
+    .aboutMe {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+
+.h1Animation {
+    font-size: 3rem;
+    }
+
+.aboutMe {
+    text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
     .h1Animation {
         font-size: 3rem;
     }

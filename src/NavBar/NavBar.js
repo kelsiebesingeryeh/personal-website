@@ -12,36 +12,20 @@ import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 const NavBar = () => {
     return (
       <nav className="navbar">
-        <div className="hamburgerMenu hidden">
-          {/* <FontAwesomeIcon icon={faBars} /> */}
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul className='menu'>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/resume">Resume</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-            <li>
+        <HamburgerMenu />
+        <div className="navContainerLeft">
+          <ul className="navItems">
+            <li className="navLinks">
               <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </li>
-            <li>
+            <li className="navLinks">
               <a href="https://github.com/kelsiebesingeryeh" target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
-            <li>
+            <li className="navLinks">
               <a
                 href={
                   "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
@@ -52,21 +36,6 @@ const NavBar = () => {
               </a>
             </li>
           </ul>
-        </div>
-
-        <div className="iconsContainerLeft">
-          <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
-            <FontAwesomeIcon icon={faEnvelope} />
-          </a>
-          <a href="https://github.com/kelsiebesingeryeh" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a
-            href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
         </div>
 
         <div className="navContainerRight">

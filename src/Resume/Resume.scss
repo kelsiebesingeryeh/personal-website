@@ -143,7 +143,13 @@ h4 {
     margin: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 375px) {
+    .resumeArea {
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
     .resumeName {
         font-size: 2rem;
     }
@@ -165,10 +171,6 @@ h4 {
 
     .jobBulletPoints {
         padding: 1rem;
-    }
-
-    p {
-        font-size: .5rem;
     }
 
     .columnOne {

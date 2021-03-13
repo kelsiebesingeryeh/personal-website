@@ -1,0 +1,70 @@
+@import '../styles/base';
+
+.hamburgerContainer {
+    position: relative;
+}
+
+.hamburger {
+    background: $dark-charcoal;
+    position: absolute;
+    width: 13rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.hamburger.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.hamburger ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger li a {
+    text-decoration: none;
+    color: $linen;
+    padding: 15px 20px;
+    display: block;
+}
+
+.hamburgerTrigger {
+    background: $dark-charcoal;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+    vertical-align: middle;
+    transition: box-shadow 0.4s ease;
+}
+@media screen and (min-width: 1025px) {
+    .hamburgerContainer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .fa-bars {
+            font-size: 3rem;
+            padding: 1rem;
+    }
+
+    .hamburger li a {
+            font-size: 1.75rem;
+
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+   .fa-bars {
+       font-size: 2rem;
+       padding: 1rem;
+   }
+}

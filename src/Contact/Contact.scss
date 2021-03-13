@@ -31,12 +31,37 @@
     color: $linen;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contactTitle {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .emailContact {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .contactTitle {
+        font-size: 2.75rem;
+        text-align: center;
+    }
+
+    .emailContact {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
     .contactTitle {
         font-size: 2.5rem;
     }
 
     .emailContact {
         font-size: 2rem;
+        text-align: center;
     }
 }
