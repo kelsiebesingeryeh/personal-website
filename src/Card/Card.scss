@@ -5,14 +5,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .projectDetailsCard {
     border: 1px solid $dark-charcoal;
     border-radius: 8px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-between;
     padding: 1rem;
     font-family: $raleway-font;
     background: $linen;
@@ -50,15 +51,28 @@
     color: $linen;
 }
 
-.imageContainer {
-    display: flex;
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+    .projectTitle {
+        font-size: 2.5rem;
+    }
+
+    .projectLinks {
+        padding: 12px 18px;
+        font-size: 0.8rem;
+    }
+
+    .projectImage {
+        height: 15rem;
+    }
 }
+
 
 @media screen and (min-width: 376px) and (max-width: 768px) {
     .cardContainer {
         margin: auto;
         width: 22rem;
     }
+
      .projectTitle {
          font-size: 2rem;
      }
