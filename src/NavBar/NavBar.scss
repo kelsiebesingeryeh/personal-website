@@ -21,15 +21,11 @@
     list-style-type: none;
     color:$linen;
     font-weight: bold;
+    padding: 0;
 }
 
-.iconsContainerLeft {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navContainerLeft {
     color: $linen;
-    width: 20%;
-    margin-left: 2rem;
 }
 
 .navContainerRight {
@@ -51,10 +47,14 @@ a {
     display: none;
 }
 
+.hamburgerTrigger {
+    display: none;
+}
+
 //MEDIUM DEVICES
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .iconsContainerLeft,
+    .navContainerLeft,
     .navContainerRight {
         display: none;
     }
@@ -67,7 +67,7 @@ a {
 //SMALL DEVICES
 
 @media screen and (min-width: 376px) and (max-width: 768px) {
-    .iconsContainerLeft,
+    .navContainerLeft,
     .navContainerRight {
         display: none;
     }
@@ -80,7 +80,7 @@ a {
 // MOBILE AND SMARTPHONE
 
 @media screen and (max-width: 375px) {
-    .iconsContainerLeft,
+    .navContainerLeft,
     .navContainerRight {
         display: none;
     }

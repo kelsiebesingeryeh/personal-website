@@ -13,18 +13,29 @@ const NavBar = () => {
     return (
       <nav className="navbar">
         <HamburgerMenu />
-         <div className="iconsContainerLeft">
-           <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
-             <FontAwesomeIcon icon={faEnvelope} />
-         </a>
-           <a href="https://github.com/kelsiebesingeryeh" target="_blank">
-             <FontAwesomeIcon icon={faGithub} />
-           </a>
-           <a
-            href={"https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"}
-            target="_blank">
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
+        <div className="navContainerLeft">
+          <ul className="navItems">
+            <li className="navLinks">
+              <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+            </li>
+            <li className="navLinks">
+              <a href="https://github.com/kelsiebesingeryeh" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </li>
+            <li className="navLinks">
+              <a
+                href={
+                  "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
+                }
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="navContainerRight">
@@ -44,7 +55,7 @@ const NavBar = () => {
           </ul>
         </div>
       </nav>
-    )
+    );
 }
 
 export default NavBar
