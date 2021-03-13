@@ -16,44 +16,51 @@ import { HamburgerHook } from './HamburgerHook'
         
 
         return (
-            <div className='hamburgerContainer'>
-                <FontAwesomeIcon icon={faBars} onClick={onClick} className='hamburgerTrigger'/>
-                <nav ref={hamburgerMenuRef} className={`hamburger ${isActive ? 'active' : 'inactive'}`}>
-                    <ul>
-                        <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/resume">Resume</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-            <li>
-              <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/kelsiebesingeryeh" target="_blank">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </li>
-            <li>
-              <a
-                href={
-                  "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
-                }
-                target="_blank"
-              >
-                <FontAwesomeIcon icon={faLinkedinIn} />
-              </a>
-            </li>
-                    </ul>
-                </nav>
+          <div className="hamburgerContainer">
+            <FontAwesomeIcon
+              icon={faBars}
+              onClick={onClick}
+              className="hamburgerTrigger"
+            />
+              <nav
+                ref={hamburgerMenuRef}
+                className={`hamburger ${isActive ? "active" : "inactive"}`}>
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/projects">Projects</Link>
+                  </li>
+                  <li>
+                    <Link to="/resume">Resume</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                  <li>
+                    <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/kelsiebesingeryeh"
+                      target="_blank">
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={
+                        "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
+                      }
+                      target="_blank">
+                      <FontAwesomeIcon icon={faLinkedinIn} />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
         )
     }

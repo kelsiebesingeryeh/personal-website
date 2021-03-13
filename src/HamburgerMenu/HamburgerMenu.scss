@@ -6,12 +6,8 @@
 
 .hamburger {
     background: $dark-charcoal;
-    border-radius: 8px;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 300px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    width: 13rem;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-20px);
@@ -30,10 +26,6 @@
     margin: 0;
 }
 
-.hamburger li {
-    border-bottom: 1px solid #dddddd;
-}
-
 .hamburger li a {
     text-decoration: none;
     color: $linen;
@@ -42,30 +34,13 @@
 }
 
 .hamburgerTrigger {
-    background: $linen;
-    border-radius: 90px;
+    background: $dark-charcoal;
+    border: none;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4px 6px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-    border: none;
     vertical-align: middle;
     transition: box-shadow 0.4s ease;
-}
-
-.hamburgerTrigger:hover {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-}
-
-.hamburgerTrigger span {
-    font-weight: 700;
-    vertical-align: middle;
-    font-size: 14px;
-    margin: 0 10px;
-}
-
-.hamburger-trigger img {
-    border-radius: 90px;
 }
