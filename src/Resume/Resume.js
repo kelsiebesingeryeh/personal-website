@@ -2,6 +2,7 @@ import React from 'react'
 import './Resume.scss'
 import { contactData } from '../data/resumeData'
 import { skillsData } from '../data/resumeData'
+import { Document } from 'react-pdf'
 
 const Resume = () => {
   const contactItems = contactData.map(item => {

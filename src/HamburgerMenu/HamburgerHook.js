@@ -1,4 +1,3 @@
-import { faWindowRestore } from '@fortawesome/free-solid-svg-icons'
 import {useState, useEffect} from 'react'
 
 // @param {React.node} el
@@ -9,10 +8,11 @@ export const HamburgerHook = (el, initialState) => {
 
     useEffect(() => {
         const onClick = e => {
-            if (el.current !== null && el.current.contains(e.target)) {
+            if (el.current !== null && !el.current.contains(e.target)) {
                 setIsActive(!isActive)
             }
         }
+
         if (isActive) {
             window.addEventListener('click', onClick)
         }

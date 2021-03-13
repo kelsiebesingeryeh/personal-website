@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './HamburgerMenu.scss'
-import { faBars, faWindowRestore } from "@fortawesome/free-solid-svg-icons"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link} from 'react-router-dom'
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
@@ -14,7 +14,6 @@ import { HamburgerHook } from './HamburgerHook'
         const onClick = () => setIsActive(!isActive)
 
         
-
         return (
           <div className="hamburgerContainer">
             <FontAwesomeIcon
@@ -22,47 +21,58 @@ import { HamburgerHook } from './HamburgerHook'
               onClick={onClick}
               className="hamburgerTrigger"
             />
-              <nav
-                ref={hamburgerMenuRef}
-                className={`hamburger ${isActive ? "active" : "inactive"}`}>
-                <ul>
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects">Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="/resume">Resume</Link>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
-                  <li>
-                    <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
-                      <FontAwesomeIcon icon={faEnvelope} />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://github.com/kelsiebesingeryeh"
-                      target="_blank">
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href={
-                        "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
-                      }
-                      target="_blank">
-                      <FontAwesomeIcon icon={faLinkedinIn} />
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-        )
+            <nav
+              ref={hamburgerMenuRef}
+              className={`hamburger ${isActive ? "active" : "inactive"}`}
+            >
+              <ul>
+                <li>
+                  <Link to="/" onClick={onClick}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects" onClick={onClick}>
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/resume" onClick={onClick}>
+                    Resume
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" onClick={onClick}>
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <a href="mailto:kelsiebesinger@gmail.com" target="_blank">
+                    <FontAwesomeIcon icon={faEnvelope} onClick={onClick} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kelsiebesingeryeh"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faGithub} onClick={onClick} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={
+                      "https://www.linkedin.com/in/kelsie-besinger-yeh-80947132/"
+                    }
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faLinkedinIn} onClick={onClick} />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        );
     }
 
 
