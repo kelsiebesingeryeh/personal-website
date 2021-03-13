@@ -1,9 +1,11 @@
+@import '../styles/base';
+
 .hamburgerContainer {
     position: relative;
 }
 
 .hamburger {
-    background: #ffffff;
+    background: $dark-charcoal;
     border-radius: 8px;
     position: absolute;
     top: 60px;
@@ -34,13 +36,13 @@
 
 .hamburger li a {
     text-decoration: none;
-    color: #333333;
+    color: $linen;
     padding: 15px 20px;
     display: block;
 }
 
 .hamburgerTrigger {
-    background: #ffffff;
+    background: $linen;
     border-radius: 90px;
     cursor: pointer;
     display: flex;
