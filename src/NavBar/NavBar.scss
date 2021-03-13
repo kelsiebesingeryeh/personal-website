@@ -51,9 +51,22 @@ a {
     display: none;
 }
 
-//TABLETS AND IPADS
+//MEDIUM DEVICES
 
-@media screen and (min-width: 376px) and (max-width: 784px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .iconsContainerLeft,
+    .navContainerRight {
+        display: none;
+    }
+
+    .hamburgerTrigger {
+        display: block;
+    }
+}
+
+//SMALL DEVICES
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
     .iconsContainerLeft,
     .navContainerRight {
         display: none;

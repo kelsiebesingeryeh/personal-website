@@ -45,8 +45,22 @@
     transition: box-shadow 0.4s ease;
 }
 
-@media screen and (min-width: 376px) and (max-width: 784px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .fa-bars {
+            font-size: 3rem;
+            padding: 1rem;
+    }
+
+    .hamburger li a {
+            font-size: 1.75rem;
+
+    }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
    .fa-bars {
        font-size: 2rem;
+       padding: 1rem;
    }
 }
