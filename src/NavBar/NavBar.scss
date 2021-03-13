@@ -51,6 +51,21 @@ a {
     display: none;
 }
 
+//TABLETS AND IPADS
+
+@media screen and (min-width: 376px) and (max-width: 784px) {
+    .iconsContainerLeft,
+    .navContainerRight {
+        display: none;
+    }
+    
+    .hamburgerTrigger {
+        display: block;
+    }
+}
+
+// MOBILE AND SMARTPHONE
+
 @media screen and (max-width: 375px) {
     .iconsContainerLeft,
     .navContainerRight {
