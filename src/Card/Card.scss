@@ -36,10 +36,6 @@
     font-size: 3rem;
 }
 
-.projectTitleContainer {
-    align-self: center;
-}
-
 .projectLinks {
     color: $dark-charcoal;
     border: 1px solid $dark-charcoal;
@@ -58,7 +54,26 @@
     display: flex;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .cardContainer {
+        margin: auto;
+        width: 22rem;
+    }
+     .projectTitle {
+         font-size: 2rem;
+     }
+
+     .projectLinks {
+         padding: 12px 18px;
+         font-size: 0.8rem;
+     }
+
+     .projectImage {
+         height: 15rem;
+     }
+}
+
+@media screen and (max-width: 375px) {
     .projectTitle {
         font-size: 2rem;
     }
