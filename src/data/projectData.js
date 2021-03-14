@@ -14,12 +14,31 @@ const projectData = [
       "InVision",
     ],
     description:
-      "Built a multi-page cryptocurrency application that allows users to view real-time data on the cryptocurrency market, exchanges and read descriptions on various cryptocurrency topics.",
+      "Built a multi-page cryptocurrency application that allows users to view real-time data on the cryptocurrency market, exchanges and read descriptions on various cryptocurrency topics",
     gitHubRepo: "https://github.com/kelsiebesingeryeh/crypto-watch",
     liveDeployment: "https://crypto-watch-alpha.vercel.app/",
   },
   {
     id: 2,
+    title: "FaceIt",
+    image: "https://i.imgur.com/OFA3jIm.png",
+    shortOverview: "Cosmetics and beauty progressive web application",
+    stack: [
+      "Progressive Web Application",
+      "JavaScript",
+      "React",
+      "React Router",
+      "CSS",
+      "REST APIs",
+      "Cypress",
+    ],
+    description:
+      "Built a multi-page progressive web application that allows a user to search for beauty products that are either sustainable, eco-friendly, vegan or allergen free",
+    gitHubRepo: "https://github.com/kelsiebesingeryeh/crypto-watch",
+    liveDeployment: "https://crypto-watch-alpha.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Rancid Tomatillos",
     image: "https://i.imgur.com/nkJYOHd.jpg",
     shortOverview: "Movie Rating Application",
@@ -38,7 +57,7 @@ const projectData = [
     liveDeployment: "https://rancid-tomatillos-ck.herokuapp.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Travel Tracker",
     image: "https://i.imgur.com/KkSjkxA.png",
     shortOverview: "Travel Booking Application",
@@ -58,7 +77,7 @@ const projectData = [
       "https://kelsiebesingeryeh.github.io/kelsie-travel-tracker/",
   },
   {
-    id: 4,
+    id: 5,
     title: "FitLit",
     image: "https://i.imgur.com/DJ9g8SZ.png",
     shortOverview: "Fitness Application Dashboard",
@@ -70,7 +89,7 @@ const projectData = [
       "https://kelsiebesingeryeh.github.io/fitlit-starter-kit/src/index.html",
   },
   {
-    id: 5,
+    id: 6,
     title: "Tic-Tac-Toe",
     image: "https://i.imgur.com/3YHnIMk.png",
     shortOverview: "JavaScript Game",
