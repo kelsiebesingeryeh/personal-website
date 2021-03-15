@@ -5,9 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
-
+import Pdf from "../documents/Kelsie Besinger Resume.pdf"
 
 const NavBar = () => {
     return (
@@ -47,7 +46,8 @@ const NavBar = () => {
               <Link to="/projects">Projects</Link>
             </li>
             <li className="navLinks">
-              <Link to="/resume">Resume</Link>
+              <Link to={Pdf} target='_blank'>Resume
+              </Link>
             </li>
             <li className="navLinks">
               <Link to="/contact">Contact</Link>

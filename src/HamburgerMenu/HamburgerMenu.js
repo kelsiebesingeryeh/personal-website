@@ -7,6 +7,7 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { HamburgerHook } from './HamburgerHook'
+import Pdf from "../documents/Kelsie Besinger Resume.pdf";
 
     const HamburgerMenu = () => {
         const hamburgerMenuRef = useRef(null)
@@ -37,7 +38,7 @@ import { HamburgerHook } from './HamburgerHook'
                   </Link>
                 </li>
                 <li>
-                  <Link to="/resume" onClick={onClick}>
+                  <Link to={Pdf} target="_blank">
                     Resume
                   </Link>
                 </li>
