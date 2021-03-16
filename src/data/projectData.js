@@ -34,8 +34,8 @@ const projectData = [
     ],
     description:
       "Built a multi-page progressive web application that allows a user to search for beauty products that are either sustainable, eco-friendly, vegan or allergen free",
-    gitHubRepo: "https://github.com/kelsiebesingeryeh/crypto-watch",
-    liveDeployment: "https://crypto-watch-alpha.vercel.app/",
+    gitHubRepo: "https://github.com/kelsiebesingeryeh/face-it",
+    liveDeployment: "https://face-it.vercel.app/",
   },
   {
     id: 3,
