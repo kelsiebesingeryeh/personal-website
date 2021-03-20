@@ -50,6 +50,7 @@ const projectData = [
       "REST APIs",
       "Cypress",
       "InVision",
+      "Travis CI"
     ],
     description:
       "Built a multi-page movie application that allows users to search, select and view different movies using REST APIs",
