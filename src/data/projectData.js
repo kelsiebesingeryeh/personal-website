@@ -54,7 +54,7 @@ const projectData = [
     description:
       "Built a multi-page movie application that allows users to search, select and view different movies using REST APIs",
     gitHubRepo: "https://github.com/kelsiebesingeryeh/rancid-tomatillos",
-    liveDeployment: "https://rancid-tomatillos-ck.herokuapp.com/",
+    liveDeployment: "https://rancid-tomatillos-olive.vercel.app/",
   },
   {
     id: 4,
