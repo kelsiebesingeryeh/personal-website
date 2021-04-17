@@ -66,7 +66,7 @@ export default Card;
 Card.propTypes = {
   title: PropTypes.string,
   shortOverview: PropTypes.string,
-  stack: PropTypes.string,
+  stack: PropTypes.instanceOf(Array),
   description: PropTypes.string,
   image: PropTypes.string,
   liveDeployment: PropTypes.string,
@@ -76,7 +76,7 @@ Card.propTypes = {
 Card.defaultProps = {
   title: PropTypes.string,
   shortOverview: PropTypes.string,
-  stack: PropTypes.string,
+  stack: PropTypes.instanceOf(Array),
   description: PropTypes.string,
   image: PropTypes.string,
   liveDeployment: PropTypes.string,
