@@ -1,5 +1,5 @@
-import React from 'react'
-import './Card.scss'
+import React from 'react';
+import './Card.scss';
 
 const Card = ({
   title,
@@ -10,8 +10,8 @@ const Card = ({
   liveDeployment,
   gitHubRepo,
 }) => {
-  
-const stackSentence = stack.join(", ");
+
+  const stackSentence = stack.join(", ");
      
   return (
     <>
@@ -22,17 +22,20 @@ const stackSentence = stack.join(", ");
             src={image}
             alt="travelTrackerScreenShot"
             className="projectImage"
-          ></img>
+          />
           <p className="projectDetails">{shortOverview}</p>
           <p className="projectDetails">
-            <strong>Tech Stack:</strong> {stackSentence}
+            <strong>Tech Stack:</strong> 
+            {stackSentence}
           </p>
           <p className="projectDetails description">{description}</p>
           {title === "Travel Tracker" && (
-            <p className='projectDetails loginInfo'>
+            <p className="projectDetails loginInfo">
               <em>Login Information: </em>
-              <strong> username:</strong> traveler5
-              <strong> password:</strong> traveler2020
+              <strong> username:</strong> 
+              traveler5
+              <strong> password:</strong> 
+              traveler2020
             </p>
           )}
             <span className="gitHubLinks">
@@ -48,4 +51,4 @@ const stackSentence = stack.join(", ");
     </>
   );
 }
-export default Card
+export default Card;
