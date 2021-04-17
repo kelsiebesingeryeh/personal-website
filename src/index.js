@@ -1,12 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './styles/base.scss'
-import App from './App/App'
-import { BrowserRouter } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles/base.scss';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App/App';
 
-const router = <BrowserRouter> <App /> </BrowserRouter>
+const router = (
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
 
 ReactDOM.render(
-    router,
-  document.getElementById('root')
-)
+  router,
+  document.getElementById('root'),
+);
