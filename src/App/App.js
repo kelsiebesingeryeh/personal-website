@@ -37,7 +37,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-// else if (match.params.page === "resume") {
-//                   return <Resume />
