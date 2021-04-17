@@ -1,3 +1,5 @@
+/* eslint no-else-return: "error" */
+
 import './App.scss';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
@@ -13,18 +15,8 @@ const App = () => {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route
-            path="/:page"
-            render={({ match }) => {
-              if (match.params.page === 'projects') {
-                return <Projects />;
-              } else if (match.params.page === 'contact') {
-                return <Contact />;
-              } else if (match.params.page === '/') {
-                return <Home />;
-              }
-            }}
-          />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
     </main>

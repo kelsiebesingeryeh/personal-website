@@ -1,11 +1,9 @@
 import React, { useRef } from 'react';
 import './HamburgerMenu.scss';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { HamburgerHook } from './HamburgerHook';
 import Pdf from '../documents/Kelsie Besinger Resume.pdf';
 

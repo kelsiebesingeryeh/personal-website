@@ -14,6 +14,7 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "arrow-body-style": 0,
   },
   parser: "babel-eslint",
 };
