@@ -47,8 +47,18 @@ describe.only("Projects", () => {
       .should("contain", "Git Repository")
       .click();
   });
-
-//   it("Should have a list of navigation items", () => {
-//     cy.get("svg").click();
-//   });
 });
+
+describe.only("Contact", () => {
+  beforeEach(() => {
+    cy.visit(`${baseURL}/contact`);
+  });
+
+  it('Should have a title on the contact page', () => {
+      cy.get('.contactTitle').should('contain', "Let's Work Together")
+  })
+
+  it("Should have a contact button", () => {
+    cy.get(".emailContact").should("contain", "SAY HELLO");
+  });
+})
