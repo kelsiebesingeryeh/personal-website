@@ -15,11 +15,12 @@ describe('Homepage', () => {
     });
 
     it("Should have a list of navigation items", () => {
-      cy.get("svg").click()
+      cy.get(".hamburgerContainer").children().first().click();
+      cy.get('ul li').should('be.visible')
     });
 })
 
-describe.only("Projects", () => {
+describe("Projects", () => {
   beforeEach(() => {
     cy.visit(`${baseURL}/projects`);
   });
@@ -49,7 +50,7 @@ describe.only("Projects", () => {
   });
 });
 
-describe.only("Contact", () => {
+describe("Contact", () => {
   beforeEach(() => {
     cy.visit(`${baseURL}/contact`);
   });
