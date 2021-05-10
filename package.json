@@ -28,8 +28,8 @@
     "test": "npm start & cypress run",
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint src/**/*.js",
-    "cypress": "cypress open",
-    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "eslintConfig": {
     "extends": [
