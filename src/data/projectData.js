@@ -8,10 +8,10 @@ const projectData = [
       'JavaScript',
       'React',
       'React Router',
-      'CSS',
+      'SASS',
       'REST APIs',
       'Cypress',
-      'InVision',
+      'Circle CI',
     ],
     description:
       'Built a multi-page cryptocurrency application that allows users to view real-time data on the cryptocurrency market, exchanges and read descriptions on various cryptocurrency topics',
@@ -49,7 +49,6 @@ const projectData = [
       'SASS',
       'REST APIs',
       'Cypress',
-      'InVision',
       'Travis CI',
     ],
     description:
@@ -69,7 +68,6 @@ const projectData = [
       'REST APIs',
       'Webpack',
       'Mocha/Chai',
-      'InVision',
     ],
     description:
       'Developed a travel tracking application that allows users to manage, track and book different trips using RESTful APIs',
