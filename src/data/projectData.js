@@ -11,7 +11,7 @@ const projectData = [
       'SASS',
       'REST APIs',
       'Cypress',
-      "Circle CI"
+      'Circle CI',
     ],
     description:
       'Built a multi-page cryptocurrency application that allows users to view real-time data on the cryptocurrency market, exchanges and read descriptions on various cryptocurrency topics',
