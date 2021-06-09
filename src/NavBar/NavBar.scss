@@ -41,6 +41,13 @@ a {
 
 .navLinks {
     margin-left: 2rem;
+    border: 3px solid transparent;
+}
+
+.navLinks:hover {
+    border-bottom: 3px solid $linen;
+    // line-height: 10px;
+    // padding-bottom: 5px;
 }
 
 .hidden {
