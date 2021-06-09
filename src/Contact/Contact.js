@@ -4,8 +4,8 @@ import './Contact.scss';
 const Contact = () => {
   return (
     <div>
-      <section className="contactPage content">
-        <h1 className="contactTitle h1Animation skateIn">
+      <section className="contactPage">
+        <h1 className="contactTitle">
           Let&apos;s Work Together
         </h1>
         <a href="mailto:kelsiebesinger@gmail.com" className="emailContact">
